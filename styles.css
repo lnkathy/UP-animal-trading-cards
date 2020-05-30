@@ -1,0 +1,45 @@
+/* add your CSS here */
+.card {
+  width: 300px;
+  border: 3px solid #0066cc;
+  border-radius: 5px;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 15px 15px 5px #e6f2ff;
+  padding: 0px 20px 15px 20px;
+  font-family: Georgia, sans-serif;
+  font-size: 14px;
+  background-color: #cce6ff;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+img {
+  /* top | right | bottom | left */
+  padding: 0px 0px 20px 0px;
+}
+
+.information {
+  border: 1.5px solid #0066cc;
+  padding: 5px 10px 5px 10px;
+}
+
+.interesting-fact {
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.description {
+  padding: 0px 0px 10px 0px;
+}
